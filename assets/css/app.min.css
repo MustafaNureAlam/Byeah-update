@@ -1,0 +1,29 @@
+*{ font-family: 'Roboto', sans-serif; }
+body{
+	background-color: #F8F9F9;
+}
+
+/* Icons */
+.fa{ vertical-align: middle; }
+/*##########################*/
+
+.table > tbody > tr > td { vertical-align: middle; }
+
+/* Helper Classes */
+.center-x{ position: absolute; left: 50%; transform: translateX(-50%);  }
+.center-y{ position: absolute; top: 50%; transform: translateY(-50%); }
+.center-xy{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.display-none{ display: none; }
+.display-block{ display: block; }
+.display-table{ display: table; }
+.display-table > .display-table-cell{ display: table-cell; vertical-align: middle; }
+
+.m-b-0{ margin-bottom: 0; }
+
+.img-sm-circle{ width: 40px; height: 40px; border-radius: 50%; }
+
+canvas.chart-canvas{ width: 100%; }
+
+/* Bootstrap Overwrite */
+.form-group:last-child{ margin-bottom: 0; }
