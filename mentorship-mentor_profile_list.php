@@ -56,7 +56,7 @@
 						<div class="col-sm-12">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<h4>Report - Individual <br> <small>Click to an individual list to get more details.</small></h4>
+									<h4>Report - Mentor Profile List <br> <small>Click to an individual list to get more details.</small></h4>
 								</div>
 								<div class="panel-body">
 									<div id="individual_assessment-generate_reports-individual">
@@ -64,16 +64,16 @@
 										<!-- Nav tabs -->
 										<ul class="nav nav-tabs" role="tablist">
 											<li role="presentation" class="active">
-												<a href="#all" aria-controls="all" role="tab" data-toggle="tab">All <span class="label label-info">500</span></a>
+												<a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a>
 											</li>
 											<li role="presentation">
-												<a href="#waiting" aria-controls="waiting" role="tab" data-toggle="tab">Waiting</a>
+												<a href="#oriantation_attend" aria-controls="oriantation_attend" role="tab" data-toggle="tab">Oriantation-Attend </a>
 											</li>
 											<li role="presentation">
-												<a href="#dropout" aria-controls="dropout" role="tab" data-toggle="tab">Dropout</a>
+												<a href="#oriantation_waiting" aria-controls="oriantation_waiting" role="tab" data-toggle="tab">Oriantation-waiting</a>
 											</li>
 											<li role="presentation">
-												<a href="#missed_basic" aria-controls="missed_basic" role="tab" data-toggle="tab">Missed Basic</a>
+												<a href="#oriantation_dropout" aria-controls="oriantation_dropout" role="tab" data-toggle="tab">Oriantation-dropout</a>
 											</li>
 									  	</ul>	
 										<!-- End Nav Tabs -->
@@ -81,7 +81,7 @@
 										<!-- Tab panes -->
 										<div class="tab-content">
 										    
-										    <!-- Tab Panel -> All -->
+										    <!-- Tab Panel -> Base line completed -->
 										    <div role="tabpanel" class="tab-pane active" id="all">
 												<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 													<thead>
@@ -118,10 +118,10 @@
 													</tbody>
 												</table>
 										    </div>
-										    <!-- End Tab Panel All -->
+										    <!-- End Tab Panel Base line completed -->
 
-											<!-- Tab Panel -> Waiting -->
-										    <div role="tabpanel" class="tab-pane" id="waiting">
+											<!-- Tab Panel -> Mid line/ Missed/ Waiting -->
+										    <div role="tabpanel" class="tab-pane" id="oriantation_attend">
 												<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 													<thead>
 														<tr>
@@ -157,10 +157,10 @@
 													</tbody>
 												</table>
 										    </div>
-											<!-- End Tab Panel -> Waiting -->
+											<!-- End Tab Panel -> Mid line/ Missed/ Waiting -->
 											
-											<!-- Tab Panel -> Dropout -->
-										    <div role="tabpanel" class="tab-pane" id="dropout">
+											<!-- Tab Panel -> End/ Missed -->
+										    <div role="tabpanel" class="tab-pane" id="oriantation_waiting">
 										    	<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 													<thead>
 														<tr>
@@ -196,10 +196,10 @@
 													</tbody>
 												</table>
 										    </div>
-										    <!-- End Tab Panel -> Dropout -->
+										    <!-- End Tab Panel -> End/ Missed -->
 
-										    <!-- Tab Panel -> Missed Basic -->
-										    <div role="tabpanel" class="tab-pane" id="missed_basic">
+										    <!-- Tab Panel -> Oriantation dropout -->
+										    <div role="tabpanel" class="tab-pane" id="oriantation_dropout">
 										    	<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 													<thead>
 														<tr>
@@ -213,7 +213,7 @@
 													<tbody>
 														<?php foreach (range(0, 500) as $i): ?>
 															<tr>
-																<td>#4</td>
+																<td>#3</td>
 																<td><img src="http://placehold.it/40x40" alt="X's Profile Image" class="img-sm-circle"></td>
 																<td>example44@email.com</td>
 																<td>+88 XXX XX XX XX</td>
@@ -235,7 +235,7 @@
 													</tbody>
 												</table>
 										    </div>
-										    <!-- End Tab Panel -> Missed Basic -->
+										    <!-- End Tab Panel -> Oriantation dropout -->
 										</div>
 										<!-- End Tab Panels -->
 

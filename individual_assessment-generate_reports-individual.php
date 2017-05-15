@@ -59,40 +59,189 @@
 									<h4>Report - Individual <br> <small>Click to an individual list to get more details.</small></h4>
 								</div>
 								<div class="panel-body">
-									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
-										<thead>
-											<tr>
-												<th>ID No.</th>
-												<th>Photograph</th>
-												<th>Email</th>
-												<th>Mobile number</th>
-												<th>Actions</th>
-											</tr>
-										</thead>
-										<tbody>
-											<?php foreach (range(0, 500) as $i): ?>
-												<tr>
-													<td>#1</td>
-													<td><img src="http://placehold.it/40x40" alt="X's Profile Image" class="img-sm-circle"></td>
-													<td>example@email.com</td>
-													<td>+88 XXX XX XX XX</td>
-													<td>
-														<div class="btn-group">
-															<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modalFor="outreach_individual_view" data-plugin="tooltip" title="View">
-																<i class="fa fa-lg fa-eye"></i>
-															</a>
-															<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modalFor="outreach_individual_edit" data-plugin="tooltip" title="Edit">
-																<i class="fa fa-lg fa-edit"></i>
-															</a>
-															<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modalFor="outreach_individual_delete" data-plugin="tooltip" title="Delete">
-																<i class="fa fa-lg fa-trash"></i>
-															</a>
-														</div>
-													</td>
-												</tr>
-											<?php endforeach; ?>
-										</tbody>
-									</table>
+									
+									<div id="individual_assessment-generate_reports-individual">
+										
+										<!-- Nav tabs -->
+										<ul class="nav nav-tabs" role="tablist">
+											<li role="presentation" class="active">
+												<a href="#all" aria-controls="all" role="tab" data-toggle="tab">All <span class="label label-info">500</span></a>
+											</li>
+											<li role="presentation">
+												<a href="#waiting" aria-controls="waiting" role="tab" data-toggle="tab">Waiting</a>
+											</li>
+											<li role="presentation">
+												<a href="#dropout" aria-controls="dropout" role="tab" data-toggle="tab">Dropout</a>
+											</li>
+											<li role="presentation">
+												<a href="#missed_basic" aria-controls="missed_basic" role="tab" data-toggle="tab">Missed Basic</a>
+											</li>
+									  	</ul>	
+										<!-- End Nav Tabs -->
+											<br>
+										<!-- Tab panes -->
+										<div class="tab-content">
+										    
+										    <!-- Tab Panel -> All -->
+										    <div role="tabpanel" class="tab-pane active" id="all">
+												<table class="table table-striped table-bordered table-hover" id="dataTables-example">
+													<thead>
+														<tr>
+															<th>ID No.</th>
+															<th>Photograph</th>
+															<th>Email</th>
+															<th>Mobile number</th>
+															<th>Actions</th>
+														</tr>
+													</thead>
+													<tbody>
+														<?php foreach (range(0, 500) as $i): ?>
+															<tr>
+																<td>#1</td>
+																<td><img src="http://placehold.it/40x40" alt="X's Profile Image" class="img-sm-circle"></td>
+																<td>example11@email.com</td>
+																<td>+88 XXX XX XX XX</td>
+																<td>
+																	<div class="btn-group">
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_view" data-plugin="tooltip" title="View">
+																			<i class="fa fa-lg fa-eye"></i>
+																		</a>
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_edit" data-plugin="tooltip" title="Edit">
+																			<i class="fa fa-lg fa-edit"></i>
+																		</a>
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_delete" data-plugin="tooltip" title="Delete">
+																			<i class="fa fa-lg fa-trash"></i>
+																		</a>
+																	</div>
+																</td>
+															</tr>
+														<?php endforeach; ?>
+													</tbody>
+												</table>
+										    </div>
+										    <!-- End Tab Panel All -->
+
+											<!-- Tab Panel -> Waiting -->
+										    <div role="tabpanel" class="tab-pane" id="waiting">
+												<table class="table table-striped table-bordered table-hover" id="dataTables-example">
+													<thead>
+														<tr>
+															<th>ID No.</th>
+															<th>Photograph</th>
+															<th>Email</th>
+															<th>Mobile number</th>
+															<th>Actions</th>
+														</tr>
+													</thead>
+													<tbody>
+														<?php foreach (range(0, 500) as $i): ?>
+															<tr>
+																<td>#2</td>
+																<td><img src="http://placehold.it/40x40" alt="X's Profile Image" class="img-sm-circle"></td>
+																<td>example22@email.com</td>
+																<td>+88 XXX XX XX XX</td>
+																<td>
+																	<div class="btn-group">
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_view" data-plugin="tooltip" title="View">
+																			<i class="fa fa-lg fa-eye"></i>
+																		</a>
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_edit" data-plugin="tooltip" title="Edit">
+																			<i class="fa fa-lg fa-edit"></i>
+																		</a>
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_delete" data-plugin="tooltip" title="Delete">
+																			<i class="fa fa-lg fa-trash"></i>
+																		</a>
+																	</div>
+																</td>
+															</tr>
+														<?php endforeach; ?>
+													</tbody>
+												</table>
+										    </div>
+											<!-- End Tab Panel -> Waiting -->
+											
+											<!-- Tab Panel -> Dropout -->
+										    <div role="tabpanel" class="tab-pane" id="dropout">
+										    	<table class="table table-striped table-bordered table-hover" id="dataTables-example">
+													<thead>
+														<tr>
+															<th>ID No.</th>
+															<th>Photograph</th>
+															<th>Email</th>
+															<th>Mobile number</th>
+															<th>Actions</th>
+														</tr>
+													</thead>
+													<tbody>
+														<?php foreach (range(0, 500) as $i): ?>
+															<tr>
+																<td>#3</td>
+																<td><img src="http://placehold.it/40x40" alt="X's Profile Image" class="img-sm-circle"></td>
+																<td>example33@email.com</td>
+																<td>+88 XXX XX XX XX</td>
+																<td>
+																	<div class="btn-group">
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_view" data-plugin="tooltip" title="View">
+																			<i class="fa fa-lg fa-eye"></i>
+																		</a>
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_edit" data-plugin="tooltip" title="Edit">
+																			<i class="fa fa-lg fa-edit"></i>
+																		</a>
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_delete" data-plugin="tooltip" title="Delete">
+																			<i class="fa fa-lg fa-trash"></i>
+																		</a>
+																	</div>
+																</td>
+															</tr>
+														<?php endforeach; ?>
+													</tbody>
+												</table>
+										    </div>
+										    <!-- End Tab Panel -> Dropout -->
+
+										    <!-- Tab Panel -> Missed Basic -->
+										    <div role="tabpanel" class="tab-pane" id="missed_basic">
+										    	<table class="table table-striped table-bordered table-hover" id="dataTables-example">
+													<thead>
+														<tr>
+															<th>ID No.</th>
+															<th>Photograph</th>
+															<th>Email</th>
+															<th>Mobile number</th>
+															<th>Actions</th>
+														</tr>
+													</thead>
+													<tbody>
+														<?php foreach (range(0, 500) as $i): ?>
+															<tr>
+																<td>#4</td>
+																<td><img src="http://placehold.it/40x40" alt="X's Profile Image" class="img-sm-circle"></td>
+																<td>example44@email.com</td>
+																<td>+88 XXX XX XX XX</td>
+																<td>
+																	<div class="btn-group">
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_view" data-plugin="tooltip" title="View">
+																			<i class="fa fa-lg fa-eye"></i>
+																		</a>
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_edit" data-plugin="tooltip" title="Edit">
+																			<i class="fa fa-lg fa-edit"></i>
+																		</a>
+																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_delete" data-plugin="tooltip" title="Delete">
+																			<i class="fa fa-lg fa-trash"></i>
+																		</a>
+																	</div>
+																</td>
+															</tr>
+														<?php endforeach; ?>
+													</tbody>
+												</table>
+										    </div>
+										    <!-- End Tab Panel -> Missed Basic -->
+										</div>
+										<!-- End Tab Panels -->
+
+									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -134,12 +283,12 @@
 		<script type="text/javascript" src="assets/js/app.min.js"></script>
 
 		<script>
-	    $(document).ready(function() {
-	        $('#dataTables-example').DataTable({
-	            responsive: true
-	        });
-	    });
-	    </script>
+		$(document).ready(function() {
+			$('#dataTables-example').DataTable({
+				responsive: true
+			});
+		});
+		</script>
 
 	</body>
 </html>

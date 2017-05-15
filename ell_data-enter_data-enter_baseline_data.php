@@ -37,7 +37,7 @@
 								
 								<div class="row">
 									<div class="col-sm-6 form-group">
-										<input type="text" name="enter_baseline_data_batch_no" placeholder="Batch Number" class="form-control">
+										<input type="text" name="enter_baseline_data_batch_no" placeholder="Workshop Number" class="form-control">
 									</div>
 
 									<div class="col-sm-6 form-group">

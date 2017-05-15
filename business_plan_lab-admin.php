@@ -45,10 +45,10 @@
 										<label>Registration Batch No.</label>
 									</div>
 									<div class="col-sm-2 form-group">
-										<label>Advanced Traning Batch No.</label>
+										<label>Status of Business</label>
 									</div>
 									<div class="col-sm-2 form-group">
-										<label>Status of business plan</label>
+										<label>Status of Business plan</label>
 									</div>
 									<div class="col-sm-2 form-group">
 										<label>Download</label>

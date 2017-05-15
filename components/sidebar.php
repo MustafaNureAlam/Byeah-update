@@ -168,7 +168,7 @@
                                 <a href="#">Overall</a>
                             </li>
                             <li>
-                                <a href="#">Individual</a>
+                                <a href="Ell_data-Generate_reports-individual.php">Individual</a>
                             </li>
                             <li>
                                 <a href="#">Batch-wise</a>
@@ -206,6 +206,9 @@
                         <a href="mentorship-recruitment_and_registration.php">Recruitment and Registration</a>
                     </li>
                     <li>
+                        <a href="mentorship-mentor_profile_list.php">Mentor Profile List</a>
+                    </li>
+                    <li>
                         <a href="mentorship-orientatio.php">Orientation</a>
                     </li>
                     <li>
@@ -225,7 +228,7 @@
                 </a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Enter Traning Data</a>
+                        <a href="#">Enter Training Data</a>
                     </li>
                     <li>
                         <a href="basic_traning-enter_traning_data-pre_test_score.php">Pre-Test Score</a>
@@ -247,7 +250,7 @@
                 </a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Enter Traning Data</a>
+                        <a href="#">Enter Training Data</a>
                     </li>
                     <li>
                         <a href="advance_traning-enter_traning_data-pre_test_score.php">Pre-Test Score</a>

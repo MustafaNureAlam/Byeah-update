@@ -45,13 +45,13 @@
 										<label>Registration Batch No.</label>
 									</div>
 									<div class="col-sm-2 form-group">
-										<label>Basic Traning Batch No.</label>
+										<label>Basic Training Batch No.</label>
 									</div>
 									<div class="col-sm-2 form-group">
-										<label>Date of Pre-Traning Test</label>
+										<label>Date of Pre-Training Test</label>
 									</div>
 									<div class="col-sm-2 form-group">
-										<label>Pre-Traning Test Score</label>
+										<label>Pre-Training Test Score</label>
 									</div>
 								</div>
 
@@ -61,28 +61,23 @@
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<label>ABC</label>
+										<label>#ABC</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#55</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#RK223</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<div class="input-group date">
-											<div class="input-group-addon">
-												<span class="fa fa-calendar"></span>
-											</div>
-											<input type="text" name="outreach_worshop_attended_date" placeholder="Date of Outreach Workshop Attended" class="form-control" data-provide="datepicker">
-										</div>
+										<label>#20/06/1945</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#536</label>
 									</div>
 								</div>
 
@@ -92,28 +87,23 @@
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<label>ABC</label>
+										<label>#ABC</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#55</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#RK223</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<div class="input-group date">
-											<div class="input-group-addon">
-												<span class="fa fa-calendar"></span>
-											</div>
-											<input type="text" name="outreach_worshop_attended_date" placeholder="Date of Outreach Workshop Attended" class="form-control" data-provide="datepicker">
-										</div>
+										<label>#20/06/1945</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#536</label>
 									</div>
 								</div>
 
@@ -123,28 +113,23 @@
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<label>ABC</label>
+										<label>#ABC</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#55</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#RK223</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<div class="input-group date">
-											<div class="input-group-addon">
-												<span class="fa fa-calendar"></span>
-											</div>
-											<input type="text" name="outreach_worshop_attended_date" placeholder="Date of Outreach Workshop Attended" class="form-control" data-provide="datepicker">
-										</div>
+										<label>#20/06/1945</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#536</label>
 									</div>
 								</div>
 
@@ -154,28 +139,23 @@
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<label>ABC</label>
+										<label>#ABC</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#55</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#RK223</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<div class="input-group date">
-											<div class="input-group-addon">
-												<span class="fa fa-calendar"></span>
-											</div>
-											<input type="text" name="outreach_worshop_attended_date" placeholder="Date of Outreach Workshop Attended" class="form-control" data-provide="datepicker">
-										</div>
+										<label>#20/06/1945</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#536</label>
 									</div>
 								</div>
 
@@ -185,36 +165,34 @@
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<label>ABC</label>
+										<label>#ABC</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#55</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#RK223</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<div class="input-group date">
-											<div class="input-group-addon">
-												<span class="fa fa-calendar"></span>
-											</div>
-											<input type="text" name="outreach_worshop_attended_date" placeholder="Date of Outreach Workshop Attended" class="form-control" data-provide="datepicker">
-										</div>
+										<label>#20/06/1945</label>
 									</div>
 
 									<div class="col-sm-2 form-group">
-										<input type="text" name="" class="form-control">
+										<label>#536</label>
 									</div>
 								</div>
-
 
 							</div>
 							
 							<div class="panel-footer text-center">
-								<button type="submit" class="btn btn-sm btn-info">Update Database</button>
+								<div class="panel-footer text-center">
+								<a href="#" class="btn btn-sm btn-info" data-toggle="modal" data-modal_for="basic_traning_post_test_score" data-plugin="tooltip" title="Insert Your Data">
+									Data Entry  
+								</a>
+							</div>
 							</div>
 						</div>
 					</form>
@@ -228,5 +206,40 @@
 
 </div>
 <!-- End Page Wrapper -->
+<!-- Global Modal -->
+		<div class="modal fade" id="_global_modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body text-center">
+						<i class="fa fa-3x fa-spin fa-spinner"></i>
+						<h5>Please wait...</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Global Modal -->
+
+		<!-- Global JS [  jQuery, Bootstrap, Bootstrap Datepicker, Bootstrap Select, Bootstrap Data Table ] -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.15/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.15/js/dataTables.bootstrap.min.js"></script>
+
+		<script type="text/javascript" src="assets/vendor/metisMenu/metisMenu.min.js"></script>
+		<script type="text/javascript" src="assets/byeah-dashboard/byeah-dashboard.js"></script>
+
+		<!-- APP JS -->
+		<script type="text/javascript" src="assets/js/app.min.js"></script>
+
+		<script>
+	    $(document).ready(function() {
+	        $('#dataTables-example').DataTable({
+	            responsive: true
+	        });
+	    });
+	    </script>
+
 
 <?php include_once 'components/html_stop.php'; ?>

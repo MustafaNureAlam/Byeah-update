@@ -42,7 +42,7 @@
 										<label>Participants's Name</label>
 									</div>
 									<div class="col-sm-2 form-group">
-										<label>Required Training Area</label>
+										<label>Required Training Area of Entry</label>
 									</div>
 									<div class="col-sm-2 form-group">
 										<label>Mentor</label>

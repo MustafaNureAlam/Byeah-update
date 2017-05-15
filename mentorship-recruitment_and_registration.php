@@ -34,30 +34,6 @@
 								
 								<!-- Program Information -->
 								
-								<div class="row">
-									<div class="col-sm-6 form-group">
-										<label>Eligibility for basic mantor:</label>
-									</div>
-
-									<div class="col-sm-6 form-group">
-										<select name="individual_assessment-enter_data" class="selectpicker show-tick show-menu-arrow form-control" data-width="100%">
-											<option value="0">Yes</option>
-											<option value="1">No</option>
-										</select>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-sm-6 form-group">
-										<label>Eligibility for Advanced mantor:</label>
-									</div>
-
-									<div class="col-sm-6 form-group">
-										<select name="individual_assessment-enter_data" class="selectpicker show-tick show-menu-arrow form-control" data-width="100%">
-											<option value="0">Yes</option>
-											<option value="1">No</option>
-										</select>
-									</div>
-								</div>
 
 								<div class="row">
 									<div class="col-sm-6 form-group">

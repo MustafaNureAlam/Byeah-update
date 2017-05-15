@@ -45,13 +45,13 @@
 										<label>Participant's Name</label>
 									</div>
 									<div class="col-sm-1 form-group">
-										<label>Registration Batch</label>
+										<label>Oriantation Round No.</label>
 									</div>
 									<div class="col-sm-1 form-group">
 										<label>Advanced Traning Batch</label>
 									</div>
 									<div class="col-sm-2 form-group">
-										<label>Sactor/ Industry</label>
+										<label>Name of Bank/FI</label>
 									</div>
 									<div class="col-sm-1 form-group">
 										<label>Board No</label>

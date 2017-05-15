@@ -37,7 +37,7 @@
 									
 										<div class="row">
 											<div class="col-sm-6 form-group">
-												<input type="text" name="individual_assessment_batch_no" placeholder="Individual Assessment Batch No." class="form-control">
+												<input type="text" name="individual_assessment_batch_no" placeholder="Registration workshop number" class="form-control">
 											</div>
 
 											<div class="col-sm-6 form-group">
@@ -50,7 +50,7 @@
 												<div class="input-group-addon">
 													<span class="fa fa-calendar"></span>
 												</div>
-												<input type="text" name="outreach_worshop_attended_date" placeholder="Date of Outreach Workshop Attended" class="form-control" data-provide="datepicker">
+												<input type="text" name="outreach_worshop_attended_date" placeholder="Date of Reg. workshop" class="form-control" data-provide="datepicker">
 											</div>
 										</div>
 									

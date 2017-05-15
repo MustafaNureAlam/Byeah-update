@@ -64,16 +64,13 @@
 										<!-- Nav tabs -->
 										<ul class="nav nav-tabs" role="tablist">
 											<li role="presentation" class="active">
-												<a href="#all" aria-controls="all" role="tab" data-toggle="tab">All <span class="label label-info">500</span></a>
+												<a href="#base_line_completed" aria-controls="base_line_completed" role="tab" data-toggle="tab">Base line completed</a>
 											</li>
 											<li role="presentation">
-												<a href="#waiting" aria-controls="waiting" role="tab" data-toggle="tab">Waiting</a>
+												<a href="#mid_line_missed_waiting" aria-controls="mid_line_missed_waiting" role="tab" data-toggle="tab">Mid line/ Missed/ Waiting </a>
 											</li>
 											<li role="presentation">
-												<a href="#dropout" aria-controls="dropout" role="tab" data-toggle="tab">Dropout</a>
-											</li>
-											<li role="presentation">
-												<a href="#missed_basic" aria-controls="missed_basic" role="tab" data-toggle="tab">Missed Basic</a>
+												<a href="#end_missed" aria-controls="end_missed" role="tab" data-toggle="tab">End/ Missed</a>
 											</li>
 									  	</ul>	
 										<!-- End Nav Tabs -->
@@ -81,8 +78,8 @@
 										<!-- Tab panes -->
 										<div class="tab-content">
 										    
-										    <!-- Tab Panel -> All -->
-										    <div role="tabpanel" class="tab-pane active" id="all">
+										    <!-- Tab Panel -> Base line completed -->
+										    <div role="tabpanel" class="tab-pane active" id="base_line_completed">
 												<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 													<thead>
 														<tr>
@@ -118,10 +115,10 @@
 													</tbody>
 												</table>
 										    </div>
-										    <!-- End Tab Panel All -->
+										    <!-- End Tab Panel Base line completed -->
 
-											<!-- Tab Panel -> Waiting -->
-										    <div role="tabpanel" class="tab-pane" id="waiting">
+											<!-- Tab Panel -> Mid line/ Missed/ Waiting -->
+										    <div role="tabpanel" class="tab-pane" id="mid_line_missed_waiting">
 												<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 													<thead>
 														<tr>
@@ -157,10 +154,10 @@
 													</tbody>
 												</table>
 										    </div>
-											<!-- End Tab Panel -> Waiting -->
+											<!-- End Tab Panel -> Mid line/ Missed/ Waiting -->
 											
-											<!-- Tab Panel -> Dropout -->
-										    <div role="tabpanel" class="tab-pane" id="dropout">
+											<!-- Tab Panel -> End/ Missed -->
+										    <div role="tabpanel" class="tab-pane" id="end_missed">
 										    	<table class="table table-striped table-bordered table-hover" id="dataTables-example">
 													<thead>
 														<tr>
@@ -196,46 +193,7 @@
 													</tbody>
 												</table>
 										    </div>
-										    <!-- End Tab Panel -> Dropout -->
-
-										    <!-- Tab Panel -> Missed Basic -->
-										    <div role="tabpanel" class="tab-pane" id="missed_basic">
-										    	<table class="table table-striped table-bordered table-hover" id="dataTables-example">
-													<thead>
-														<tr>
-															<th>ID No.</th>
-															<th>Photograph</th>
-															<th>Email</th>
-															<th>Mobile number</th>
-															<th>Actions</th>
-														</tr>
-													</thead>
-													<tbody>
-														<?php foreach (range(0, 500) as $i): ?>
-															<tr>
-																<td>#4</td>
-																<td><img src="http://placehold.it/40x40" alt="X's Profile Image" class="img-sm-circle"></td>
-																<td>example44@email.com</td>
-																<td>+88 XXX XX XX XX</td>
-																<td>
-																	<div class="btn-group">
-																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_view" data-plugin="tooltip" title="View">
-																			<i class="fa fa-lg fa-eye"></i>
-																		</a>
-																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_edit" data-plugin="tooltip" title="Edit">
-																			<i class="fa fa-lg fa-edit"></i>
-																		</a>
-																		<a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-modal_for="outreach_individual_delete" data-plugin="tooltip" title="Delete">
-																			<i class="fa fa-lg fa-trash"></i>
-																		</a>
-																	</div>
-																</td>
-															</tr>
-														<?php endforeach; ?>
-													</tbody>
-												</table>
-										    </div>
-										    <!-- End Tab Panel -> Missed Basic -->
+										    <!-- End Tab Panel -> End/ Missed -->
 										</div>
 										<!-- End Tab Panels -->
 
